@@ -1,0 +1,25 @@
+*&---------------------------------------------------------------------*
+*& Report z_abap101_088
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT z_abap101_088.
+SELECTION-SCREEN BEGIN OF SCREEN 1 AS SUBSCREEN.
+PARAMETERS p_1 TYPE string.
+PARAMETERS p_1a TYPE d.
+SELECTION-SCREEN END OF SCREEN 1.
+SELECTION-SCREEN BEGIN OF SCREEN 2 AS SUBSCREEN.
+PARAMETERS p_2 TYPE d.
+SELECTION-SCREEN END OF SCREEN 2.
+SELECTION-SCREEN BEGIN OF SCREEN 3 AS SUBSCREEN.
+PARAMETERS p_3 TYPE t.
+SELECTION-SCREEN END OF SCREEN 3.
+SELECTION-SCREEN BEGIN OF TABBED BLOCK tb FOR 3 LINES.
+SELECTION-SCREEN TAB (10) tab1 USER-COMMAND tab1_pressed DEFAULT SCREEN 1.
+SELECTION-SCREEN TAB (10) tab2 USER-COMMAND tab2_pressed DEFAULT SCREEN 2.
+SELECTION-SCREEN TAB (10) tab3 USER-COMMAND tab3_pressed DEFAULT SCREEN 3.
+SELECTION-SCREEN END OF BLOCK tb.
+INITIALIZATION.
+ tab1 = 'String'.
+ tab2 = 'Date'.
+ tab3 = 'Time'.
