@@ -6,7 +6,7 @@ SCR folder contain solution for ABAP101 book excersies. There are realy simple a
 -Split program into many Form Routines
 -Bulid Selection Screens to get user`s input
 
-Exsersises are devided in 3 main part 
+Exercises are devided in 3 main part 
 Part I - Data Types and Objects (1 - 40)
 Part II - Imperative Logic (41 - 72)
 Part III – Selection Screens (73 – 101)
