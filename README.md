@@ -1,6 +1,6 @@
 # ABAP101
 
-SCR folder contain solution for ABAP101 book excersies. There are realy simple applications. This book has 4 main goals:
+SRC folder contain solution for ABAP101 book excersies. There are realy simple applications. This book has 4 main goals:
 -Learn how to use Data Types and Data Objects
 -Create executable programs using imperative logic
 -Split program into many Form Routines
